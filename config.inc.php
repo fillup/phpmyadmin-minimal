@@ -17,6 +17,12 @@
 $cfg['blowfish_secret'] = 'a8b7c6d'; /* YOU MUST FILL IN THIS FOR COOKIE AUTH! */
 
 /*
+ * Fix for file permissions on Windows
+ * http://blog.elijaa.org/index.php?post/2013/02/19/Solve-Wrong-permissions-on-configuration-file%2C-should-not-be-world-writable!-error-on-phpMyAdmin
+ */
+$cfg['CheckConfigurationPermissions'] = false;
+
+/*
  * Servers configuration
  */
 $i = 0;
