@@ -21,14 +21,15 @@ PHP
   ("image/jpeg: inline") with their original aspect ratio.
 
 * When using the cookie authentication (the default), the `mcrypt
-  <http://www.php.net/mcrypt>`_ extension is strongly suggested for most
-  users and is **required** for 64–bit machines. Not using mcrypt will
-  cause phpMyAdmin to load pages significantly slower.
+  <http://www.php.net/mcrypt>`_ extension is strongly suggested.
 
 * To support upload progress bars, see :ref:`faq2_9`.
 
 * To support XML and Open Document Spreadsheet importing, you need the
   `libxml <http://www.php.net/libxml>`_ extension.
+
+* To support reCAPTCHA on the login page, you need the
+  `openssl <http://www.php.net/openssl>`_ extension.
 
 * Performance suggestion: install the ``ctype`` extension.
 
