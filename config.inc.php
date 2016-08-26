@@ -153,3 +153,7 @@ $cfg['SaveDir'] = '';
  */
 $cfg['LoginCookieValidity'] = 28800;
 
+/*
+ * Time limit for import/export
+ */
+$cfg['ExecTimeLimit'] = 1800;
